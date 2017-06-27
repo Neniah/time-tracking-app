@@ -2,6 +2,12 @@ import React, {Component} from 'react'
 import TimerForm from './TimerForm'
 
 class ToggleableTimerForm extends Component{
+  state = {
+    isOpen: false,
+  };
+  handleFormOpen = () => {
+    this.setState({ isOpen: true});
+  };
   render(){
     if(this.props.isOpen){
       return(
