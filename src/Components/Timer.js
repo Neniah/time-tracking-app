@@ -5,12 +5,12 @@ class Timer extends Component{
   render(){
     const elapsedString = helpers.renderElapsedString(this.props.elapsed);
     return(
-      <div className="row text-center">
-        <div className="col-md-5 col-md-offset-4">
-          <div className="panel-content">
+      <div className="col-md-6 col-md-offset-3 panel panel-default">
+        <div className="">
+          <div className="panel-heading">
             {this.props.title}
           </div>
-          <div className="meta">
+          <div className="panel-body">
             {this.props.project}
           </div>
           <div className="text-center">
