@@ -16,7 +16,7 @@ class ToggleableTimerForm extends Component{
     } else {
       return (
         <div className="col-md-5 col-md-offset-4">
-          <button className="btn btn-default">
+          <button className="btn btn-default" onClick={this.handleFormOpen}>
             <i className="plus icon" />
           </button>
         </div>
