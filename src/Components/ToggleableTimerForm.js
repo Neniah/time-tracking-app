@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import TimerForm from './Components/TimerForm'
+import TimerForm from './TimerForm'
 
 class ToggleableTimerForm extends Component{
   render(){
@@ -20,4 +20,4 @@ class ToggleableTimerForm extends Component{
 }
 
 
-export default TimersDashBoard;
+export default ToggleableTimerForm;
